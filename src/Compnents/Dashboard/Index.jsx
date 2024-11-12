@@ -9,9 +9,9 @@ import {
   ButtonGroup,
   Paper,
 } from '@mui/material';
-import FileUpload from './FilerUpload';
-import TableList from './tableList';
-import Transcripts from './Transcripts';
+import FileUpload from './Components/FilerUpload';
+import TableList from './Components/tableList';
+import Transcripts from './Components/Transcripts';
 
 const Index = () => {
   
@@ -34,11 +34,10 @@ const Index = () => {
           justifyContent="space-between"
           sx={{ p: 3 }}
         >
-          <Typography variant="h5" fontWeight={600} fontSize={20}>
+          <Typography variant="h5" fontWeight={600} fontSize={20} >
           POC Docs Converter
           </Typography>
         </Stack>
-
         <Box
           sx={{
             border: '1px solid #D0D5DD',
